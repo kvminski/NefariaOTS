@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <!--
+	// Raid System by 5mok3
+	// DO NOT CHANGE INTERVAL UNLESS YOU ARE SURE WHAT YOU ARE DOING!!
+	-->
+
+  <!--Announcements-->
+
+  <!--Single Spawns-->
+  <singlespawn delay="1000" name="Arachir the Ancient One" x="302" y="840" z="6" />
+</raid>

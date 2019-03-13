@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+<announce delay="1000" type="event" message="Undead cavebears invaded the Grim Crypt." />
+  <areaspawn delay="2000" fromx="1787" fromy="350" fromz="10" tox="1848" toy="421" toz="10">
+      <monster name="Undead Cavebear" amount="3" />
+  </areaspawn>
+</raid>

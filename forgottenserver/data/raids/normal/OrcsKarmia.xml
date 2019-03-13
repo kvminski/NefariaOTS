@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+  <announce delay="1000" type="Event" message="Orc activity near Karmia reported! Beware!" />
+  <announce delay="60000" type="Event" message="Karmia is under attack!" />
+
+ <areaspawn delay="60000" fromx="1014" fromy="1047" fromz="7" tox="1126" toy="1139" toz="7">
+    <monster name="orc" amount="60"/>
+    <monster name="orc warrior" amount="60"/>
+    <monster name="orc spearman" amount="60" />
+    <monster name="orc rider" amount="30" />
+    <monster name="orc shaman" amount="30" />
+    <monster name="orc berserker" amount="30" />
+    <monster name="orc warlord" amount="10" />
+    <monster name="orc leader" amount="20" />
+  </areaspawn>
+
+  <areaspawn delay="80000" fromx="1014" fromy="1047" fromz="7" tox="1126" toy="1139" toz="7">
+    <monster name="orc" amount="20"/>
+    <monster name="orc warrior" amount="20"/>
+    <monster name="orc spearman" amount="20" />
+    <monster name="orc rider" amount="10" />
+    <monster name="orc shaman" amount="10" />
+    <monster name="orc berserker" amount="10" />
+    <monster name="orc warlord" amount="5" />
+    <monster name="orc leader" amount="10" />
+    <monster name="orc marauder" amount="15" />
+    <monster name="cublarc the plunderer" amount="1" />
+    <monster name="bibby bloodbath" amount="1" />
+    <monster name="warlord ruzad" amount="1" />
+  </areaspawn>
+</raid>

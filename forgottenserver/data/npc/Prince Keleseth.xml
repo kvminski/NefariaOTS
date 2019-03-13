@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Prince Keleseth" script="promotion.lua" walkinterval="2000" walkradius="2" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="133" head="0" body="95" legs="95" feet="75" addons="3" mount="0"/>
+</npc>

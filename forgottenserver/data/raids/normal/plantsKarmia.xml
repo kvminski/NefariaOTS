@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="Nature balance wobbed." />
+<announce delay="35000" type="event" message="Plants grow rapidly." />
+<announce delay="70000" type="event" message="Karmia became a scrub." />
+
+  <areaspawn delay="35000" fromx="1014" fromy="1047" fromz="7" tox="1126" toy="1139" toz="7">
+    <monster name="Carniphila" amount="40" />
+    <monster name="Spit Nettle" amount="40" />
+    <monster name="Centipede" amount="40" />
+  </areaspawn>
+
+  <areaspawn delay="70000" fromx="1014" fromy="1047" fromz="7" tox="1126" toy="1139" toz="7">
+    <monster name="Carniphila" amount="30" />
+    <monster name="Spit Nettle" amount="40" />
+    <monster name="Centipede" amount="50" />
+    <monster name="Tiquandas Revenge" amount="1"/>
+    <monster name="Deathbine" amount="1"/>
+  </areaspawn>
+
+</raid>

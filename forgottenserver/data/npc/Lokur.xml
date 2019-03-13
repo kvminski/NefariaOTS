@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc name="Lokur" script="Lokur.lua" walkinterval="2000" walkradius="2" floorchange="0">
+	<health now="100" max="100" />
+	<look type="160" head="59" body="114" legs="95" feet="0" addons="0" mount="0"/>
+
+	<parameters>
+		<parameter key="message_greet" value="Hello there, |PLAYERNAME|. You want to buy wagon {ticket}?"/>
+	</parameters>
+
+</npc>

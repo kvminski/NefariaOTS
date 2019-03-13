@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	 <!--Announcements-->
+	<announce delay="1000" type="event" message="Minotaur activity at Karmia." />
+	<announce delay="35000" type="event" message="Minotaurs approaching." />
+	<announce delay="70000" type="event" message="Karmia is being destroyed!" />
+
+	 <!--Single Spawns-->
+	 <areaspawn delay="35000" fromx="1014" fromy="1047" fromz="7" tox="1126" toy="1139" toz="7">
+	    <monster name="Minotaur" amount="100" />
+		<monster name="Minotaur Guard" amount="30" />
+		<monster name="Minotaur Mage" amount="40" />
+	 </areaspawn>
+
+	 <areaspawn delay="70000" fromx="1014" fromy="1047" fromz="7" tox="1126" toy="1139" toz="7">
+	    <monster name="Minotaur" amount="70" />
+		<monster name="Minotaur Guard" amount="40" />
+		<monster name="Minotaur Mage" amount="30" />
+		<monster name="The Horned Fox" amount="1"/>
+	 </areaspawn>
+</raid>

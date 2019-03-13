@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Emma" script="default.lua" walkinterval="2000" walkradius="2" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="136" head="58" body="1" legs="75" feet="19" addons="0" mount="0"/>
+    <parameters>
+        <parameter key="message_greet" value="Welcome to the post, |PLAYERNAME|!"/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|!"/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="mail;job" />
+        <parameter key="keyword_reply1" value="Write the name and the address of the receiver on the label. The label has to be in the parcel before you put the parcel in a mailbox." />
+        <parameter key="keyword_reply2" value="I am postwoman and local promoter. Can I help you?" />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_sellable" value="label,2599,1" />
+        <parameter key="shop_buyable" value="parcel,2595,10;label,2599,1;letter,2597,2" />
+    </parameters>
+</npc>

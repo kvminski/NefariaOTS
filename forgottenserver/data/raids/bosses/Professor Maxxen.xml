@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+	<announce delay="2000" type="event" message="Beware of Professor Maxxen!" />
+	<script delay="2000" script="Professor.lua" />
+</raid>

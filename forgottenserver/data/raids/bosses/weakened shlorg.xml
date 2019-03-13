@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <script delay="2000" script="weakened shlorg.lua" />
+    <announce delay="2000" type="event" message="Beware of Weakened Shlorg!" />
+
+  </raid>
+  

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+<announce delay="1000" type="event" message="Necropharus is preparing his troops to start attack on Karmia!" />
+<announce delay="10000" type="event" message="Undeads are walking back from graves!" />
+<announce delay="30000" type="event" message="Necromancers are invading the streets of Karmia!" />
+
+  <areaspawn delay="10000" fromx="1014" fromy="1047" fromz="7" tox="1126" toy="1139" toz="7">
+  	<monster name="ghoul" amount="80"/>
+  	<monster name="crypt shambler" amount="30"/>
+  	<monster name="mummy" amount="10"/>
+  	<monster name="skeleton" amount="100"/>
+    <monster name="necromancer" amount="10" />
+  </areaspawn>
+
+  <areaspawn delay="30000" fromx="1014" fromy="1047" fromz="7" tox="1126" toy="1139" toz="7">
+    <monster name="necromancer" amount="60" />
+	<monster name="necropharus" amount="1" />
+  </areaspawn>
+
+</raid>

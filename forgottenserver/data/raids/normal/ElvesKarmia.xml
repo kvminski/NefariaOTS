@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="Elf Scouts have been sighted near Karmia!" />
+<announce delay="30000" type="event" message="The elves attack from shadowthorn!" />
+<announce delay="60000" type="event" message="Karmia is under attack!" />
+
+  <areaspawn delay="30000" fromx="1014" fromy="1047" fromz="7" tox="1126" toy="1139" toz="7">
+    <monster name="elf" amount="50" />
+    <monster name="elf scout" amount="30" />
+    <monster name="elf arcanist" amount="15" />
+  </areaspawn>
+
+<areaspawn delay="50000" fromx="1014" fromy="1047" fromz="7" tox="1126" toy="1139" toz="7">
+    <monster name="elf" amount="50" />
+    <monster name="elf scout" amount="30" />
+    <monster name="elf arcanist" amount="15" />
+  </areaspawn>
+
+<areaspawn delay="60000" fromx="1014" fromy="1047" fromz="7" tox="1126" toy="1139" toz="7">
+    <monster name="elf" amount="50" />
+    <monster name="elf scout" amount="30" />
+    <monster name="elf arcanist" amount="15" />
+    <monster name="Dharalion" amount="1"/>
+  </areaspawn>
+
+
+</raid>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Denwarina" script="Denwarina.lua" walkinterval="2000" walkradius="2" floorchange="0">
+  <health now="100" max="100" />
+  <look type="141" head="0" body="128" legs="128" feet="0" addons="1" mount="0"/>
+<voices>
+<voice text="Great spirit potions as well as health and mana potions in different sizes!" interval2="100" margin="1" yell="no"/>
+<voice text="If you need alchemical fluids like slime and blood, get them here." interval2="120" margin="1" yell="no"/>
+</voices>
+<parameters>
+        <parameter key="message_greet" value="Hello |PLAYERNAME|, welcome to the magic shop in Karmia."/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|, please come back soon."/>
+		<parameter key="message_walkaway" value="Good bye, |PLAYERNAME|, please come back soon." />
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares. By the way, if you'd like to join our bonus system for depositing flasks and vial, you have to tell me about that {deposit}." />
+	<parameter key="module_shop" value="1" />
+    <parameter key="shop_buyable" value="
+            ultimate mp,26029,350;
+            supreme health potion,26031,500;
+            ultimate spirit potion,26030,350;   
+		spellbook, 2175, 150;
+            magic lightwand, 2163, 400;
+            small health, 8704, 20;
+            health potion, 7618, 45;
+            mana potion, 7620, 50;
+            strong health, 7588, 100;
+            strong mana, 7589, 80;
+            great health, 7591, 190;
+            great mana, 7590, 120;
+            great spirit, 8472, 190;
+            ultimate health, 8473, 310;
+            antidote potion, 8474, 50;
+            animate dead, 2316, 375;
+            blank rune, 2260, 10;
+            desintegrate, 2310, 26;
+            energy bomb, 2262, 162;
+            fireball, 2302, 30;
+            holy missile, 2295, 16;
+            icicle, 2271, 30;
+            magic wall, 2293, 116;
+            paralyze, 2278, 700;
+            poison bomb, 2286, 85;
+            soulfire, 2308, 46;
+            stone shower, 2288, 37;
+            thunderstorm, 2315, 37;
+            wild growth, 2269, 160;
+            avalanche, 2274, 45;
+            antidote, 2266, 65;
+            chameleon, 2291, 210;
+            convince creature, 2290, 80;
+            destroy field, 2261, 15;
+            energy field, 2277, 38;
+            energy wall, 2279, 85;
+            explosion, 2313, 31;
+            fire bomb, 2305, 117;
+            fire field, 2301, 28;
+            fire wall, 2303, 61;
+            great fireball, 2304, 45;
+            heavy magic missile, 2311, 12;
+            intense healing, 2265, 95;
+            light magic missile, 2287, 4;
+            poison field, 2285, 21;
+            poison wall, 2289, 52;
+            stalagmite, 2292, 12;
+            sudden death, 2268, 108;
+            ultimate healing, 2273, 175;
+            wand of vortex, 2190, 500;
+            wand of dragonbreath, 2191, 1000;
+            wand of decay, 2188, 5000;
+            wand of draconia, 8921, 7500;
+            wand of cosmic energy, 2189, 10000;
+            wand of inferno, 2187, 15000;
+            wand of starstorm, 8920, 18000;
+            wand of voodoo, 8922, 22000;
+            snakebite rod, 2182, 500;
+            moonlight rod, 2186, 1000;
+            necrotic rod, 2185, 5000;
+            northwind rod, 8911, 7500;
+            terra rod, 2181, 10000;
+            hailstorm rod, 2183, 15000;
+            springsprout rod, 8912, 18000;
+            underworld rod, 8910, 22000;"/>
+	<parameter key="shop_sellable" value="
+			wand of vortex, 2190, 100;
+            wand of dragonbreath, 2191, 200;
+            wand of decay, 2188, 1000;
+            wand of draconia, 8921, 1500;
+            wand of cosmic energy, 2189, 2000;
+            wand of inferno, 2187, 3000;
+            wand of starstorm, 8920, 3600;
+            wand of voodoo, 8922, 4400;
+            snakebite rod, 2182, 100;
+            moonlight rod, 2186, 200;
+            necrotic rod, 2185, 1000;
+            northwind rod, 8911, 1500;
+            terra rod, 2181, 2000;
+            hailstorm rod, 2183, 3000;
+            springsprout rod, 8912, 3600;
+            underworld rod, 8910, 4400;
+            glacial rod, 18412, 6500;
+            wand of everblazing, 18409, 6000;
+            snake gods sceptre, 12648, 60000;
+            wand of defiance, 18390, 6500;
+            muck rod, 18411, 6000;
+            normal potion flask, 7636, 5;
+            strong potion flask, 7634, 10;
+            great potion flask, 7635, 15;"/>
+	</parameters>
+</npc>

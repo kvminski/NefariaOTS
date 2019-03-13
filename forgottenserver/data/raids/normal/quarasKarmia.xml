@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="Something is moving in the depths of the sea around Karmia" />
+<announce delay="35000" type="event" message="Numerous Quara fins have been sighted in the seas around Karmia." />
+<announce delay="70000" type="event" message="Quara emerged from the sea to attack Karmia." />
+
+  <areaspawn delay="35000" fromx="1014" fromy="1047" fromz="7" tox="1126" toy="1139" toz="7">
+    <monster name="Quara Mantassin Scout" amount="25" />
+    <monster name="Quara Constrictor Scout" amount="25" />
+    <monster name="Quara Hydromancer Scout" amount="25" />
+    <monster name="Quara Pincher Scout" amount="25" />
+    <monster name="Quara Predator Scout" amount="25" />
+  </areaspawn>
+
+  <areaspawn delay="70000" fromx="1014" fromy="1047" fromz="7" tox="1126" toy="1139" toz="7">
+    <monster name="Quara Mantassin Scout" amount="25" />
+    <monster name="Quara Constrictor Scout" amount="25" />
+    <monster name="Quara Hydromancer Scout" amount="25" />
+    <monster name="Quara Pincher Scout" amount="25" />
+    <monster name="Quara Predator Scout" amount="25" />
+    <monster name="Sharptooth" amount="1"/>
+    <monster name="Crustacea Gigantica" amount="1"/>
+  </areaspawn>
+
+</raid>

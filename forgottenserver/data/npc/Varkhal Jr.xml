@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Varkhal Jr." script="addonrook.lua" walkinterval="2000" walkradius="2" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="0" body="51" legs="76" feet="0" addons="2" mount="0"/>
+
+	<!--<parameters>
+    	<parameter key="message_greet" value="Greetings |PLAYERNAME|. I can sell you few nice addons! Just say 'addons'." />
+    </parameters> -->
+</npc>

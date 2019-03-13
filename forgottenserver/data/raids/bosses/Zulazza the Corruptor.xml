@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <!--
+	// Raid System by 5mok3
+	// DO NOT CHANGE INTERVAL UNLESS YOU ARE SURE WHAT YOU ARE DOING!!
+	-->
+
+  <!--Announcements--> 
+  <announce delay="1000" type="Event" message="Beware of Zulazza the Corruptor!" />
+<!--Single Spawns-->
+<script delay="1000" script="Zulazza the Corruptor.lua" />
+<script delay="1000" script="Chizzoron the Distorter.lua" />
+
+  <!--<singlespawn delay="100000" name="Zulazza the Corruptor" x="33348" y="31611" z="1" />
+  <singlespawn delay="100000" name="Chizzoron the Distorter" x="33343" y="31608" z="2" />-->
+</raid>

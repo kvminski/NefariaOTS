@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raids>
+	<!-- Special -->	
+	<raid name="Demodras" file="bosses/Demodras.xml" interval2="1440" margin="120" />
+	<raid name="Mad Mage" file="Special/Mad Mage.xml" interval2="360" margin="30"/> <!-- FEITO -->
+    <raid name="Draptor" file="Special/Draptor.xml" interval2="270" margin="10"/>
+	<raid name="Midnight Panther" file="Special/Midnight Panther.xml" interval2="280" margin="20"/>
+	<raid name="Undead Cavebear" file="Special/Undead Cavebear.xml" interval2="230" margin="20"/>
+	<raid name="Titanica" file="Special/Titanica.xml" interval2="240" margin="20"/>		
+		
+	<!-- Bosses -->
+	<raid name="The Pale Count" file="bosses/The Pale Count.xml" interval2="490" margin="60" /> 
+	<raid name="Fernfang" file="bosses/fernfang.xml" interval2="1440" margin="80" /> 
+	<raid name="Weakened Shlorg" file="bosses/weakened shlorg.xml" interval2="430" margin="50" /> <!-- FEITO -->
+	<raid name="Dharalion" file="bosses/Dharalion.xml" interval2="500" margin="70" /> 
+	<raid name="The Welter" file="bosses/the welter.xml" interval2="440" margin="60"/> <!-- FEITO -->
+	<!--<raid name="Furyosa" file="bosses/furyosa.xml" interval2="440" margin="60"/> -->
+	<raid name="Zushuka" file="bosses/zushuka.xml" interval2="6000" margin="60"/> <!-- FEITO -->
+	<raid name="White Pale" file="bosses/white pale.xml" interval2="440" margin="60"/>	 <!-- FEITO -->
+	
+	<raid name="Hirintror" file="bosses/hirintror.xml" interval2="440" margin="60"/> <!-- FEITO -->
+	<raid name="Feroxa" file="bosses/Feroxa.xml" interval2="430" margin="81" />	
+	<!--<raid name="Professor" file="bosses/Professor Maxxen.xml" interval2="450" margin="72" />-->
+	<!--<raid name="Gaz" file="bosses/gaz.xml" interval2="1440" margin="160" /> -->
+	<raid name="Tyrn" file="bosses/Tyrn.xml" interval2="1440" margin="50" /> <!-- FEITO -->
+	<raid name="Maw" file="bosses/maw.xml" interval2="410" margin="20" />
+	<raid name="Arachir the Ancient One" file="bosses/Arachir the Ancient One.xml" interval2="1440" margin="80" />
+	<raid name="Ferumbras" file="bosses/Ferumbras.xml" interval2="1440" margin="120" /> <!-- FEITO -->
+	<raid name="Ghazbaran" file="bosses/Ghazbaran.xml" interval2="1440" margin="100" /> <!-- FEITO -->
+	<raid name="Horned Fox" file="bosses/horned.xml" interval2="1440" margin="180" />
+	<raid name="Morgaroth" file="bosses/Morgaroth.xml" interval2="1440" margin="90" /> <!-- FEITO -->
+	<raid name="Necropharus" file="bosses/Necropharus.xml" interval2="1440" margin="110" />
+	<raid name="Orshabaal" file="bosses/Orshabaal.xml" interval2="1440" margin="100" />
+	<raid name="The Old Widow" file="bosses/The Old Widow.xml" interval2="1440" margin="60" />
+	<raid name="Sir Valorcrest" file="bosses/Sir Valorcrest.xml" interval2="1440" margin="120" />
+	<raid name="Zevelon Duskbringer" file="bosses/Zevelon Duskbringer.xml" interval2="1440" margin="90" />
+	<raid name="Zulazza the Corruptor" file="bosses/Zulazza the Corruptor.xml" interval2="1440" margin="60" /> <!-- FEITO -->
+	<raid name="Diblis The Fair" file="bosses/Diblis The Fair.xml" interval2="1440" margin="180" />
+
+	<!-- poi -->
+	<raid name="dracola" file="bosses/dracola.xml" interval2="700" margin="100"/>
+	<raid name="countessorrow" file="bosses/countessorrow.xml" interval2="700" margin="100"/>
+	<raid name="handmaiden" file="bosses/handmaiden.xml" interval2="700" margin="100"/>
+	<raid name="massacre" file="bosses/massacre.xml" interval2="700" margin="100"/>
+	<raid name="punish" file="bosses/punish.xml" interval2="700" margin="100"/>
+	<raid name="imperor" file="bosses/imperor.xml" interval2="700" margin="100"/>
+	<raid name="plasmother" file="bosses/plasmother.xml" interval2="700" margin="100"/>
+
+	<!-- Regular Raids -->
+	<raid name="citizens" file="normal/feverish citizen.xml" interval2="500" margin="40" />	
+	<raid name="necroKarmia" file="normal/NecroKarmia.xml" interval2="500" margin="80" />
+	<raid name="OrcsKarmia" file="normal/OrcsKarmia.xml" interval2="500" margin="70" />
+	<raid name="amazonKarmia" file="normal/amazonKarmia.xml" interval2="500" margin="70" />
+	<raid name="minotaursKarmia" file="normal/minotaursKarmia.xml" interval2="500" margin="60" />
+	<raid name="plantsKarmia" file="normal/plantsKarmia.xml" interval2="500" margin="80" />
+	<raid name="quarasKarmia" file="normal/quarasKarmia.xml" interval2="500" margin="80" />
+	<raid name="apesKarmia" file="normal/apesKarmia.xml" interval2="500" margin="70" />
+	<raid name="ElvesKarmia" file="normal/ElvesKarmia.xml" interval2="500" margin="70" />
+	<raid name="Pirates" file="normal/PiratesKarmia.xml" interval2="500" margin="80" />
+	<raid name="Pirates2" file="normal/PiratesKarmia2.xml" interval2="500" margin="80" />
+	<raid name="Pirates3" file="normal/PiratesKarmia3.xml" interval2="500" margin="80" />
+	<raid name="Pirates4" file="normal/PiratesKarmia4.xml" interval2="500" margin="80" />
+	<raid name="Yaga" file="normal/Yaga.xml" interval2="150" margin="90" />
+	
+	
+</raids>

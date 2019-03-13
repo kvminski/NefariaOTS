@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Aldo" script="bootmaker.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="472" head="78" body="95" legs="114" feet="94" addons="2"/>
+		<parameters>
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;help;alice;priestess;occupation;guide;food;healer;bless;enigma" />
+		<parameter key="keyword_reply1" value="I'm an expert in fixing boots. No matter what you bring, there is still a chance." />
+		<parameter key="keyword_reply2" value="I can fix for you {soft} or {firewalker} boots." />
+		<parameter key="keyword_reply3" value="She is last {Priestess} left in {Enigma} City. She is really hard working as a {priestess}, {guide} and {healer}" />
+		<parameter key="keyword_reply4" value="{Alice} is only priestess I know. Her role is to keep townspeople religion spirit and {bless} adventurers." />
+		<parameter key="keyword_reply5" value="I'm an expert in fixing boots. No matter what you bring, there is still a chance." />
+		<parameter key="keyword_reply6" value="Guide is someone who can show you the way. She knows {Enigma} city well." />
+		<parameter key="keyword_reply7" value="I am here to repair shoes. If you want some food head right from there." />
+		<parameter key="keyword_reply8" value="Our health is very important thing. We should have more medics." />
+		<parameter key="keyword_reply9" value="I heard about blessings effect, but as mortal merchant I can't try it." />
+		<parameter key="keyword_reply10" value="Sometimes I have bad days like this one, I'd like to move far away from here, but entire world is full of evil. I have no place to go." />
+	</parameters>
+</npc>

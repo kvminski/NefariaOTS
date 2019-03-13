@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+
+  <areaspawn delay="1000" fromx="958" fromy="1103" fromz="6" tox="967" toy="1106" toz="6">
+    <monster name="Yaga the Crone" amount="1" />
+  </areaspawn>
+
+
+
+</raid>

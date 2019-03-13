@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<!--Single Spawns-->
+	<script delay="1000" script="the welter.lua" />
+	<announce delay="1000" type="event" message="Beware of the Welter!" />
+	<!--<singlespawn delay="1000" name="The Welter" x="33026" y="32660" z="5" />-->
+</raid>

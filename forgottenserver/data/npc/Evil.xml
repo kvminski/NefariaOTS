@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Evil"  walkinterval="0" walkradius="0" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="325" head="95" body="95" legs="57" feet="94" addons="2"/>
+	</npc>

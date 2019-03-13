@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <!--
+	// Raid System by 5mok3
+	// DO NOT CHANGE INTERVAL UNLESS YOU ARE SURE WHAT YOU ARE DOING!!
+	-->
+
+  <!--Announcements-->
+
+  <!--Single Spawns-->
+  <singlespawn delay="1000" name="Diblis The Fair" x="306" y="874" z="5" />
+</raid>

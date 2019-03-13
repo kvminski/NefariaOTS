@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Alice" script="blessevoguide.lua" walkinterval="2000" walkradius="2" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="138" head="58" body="114" legs="87" addons="3"/>
+	<parameters>
+<!-- 		<parameter key="message_greet" value="Be greeted. If you need {something} just ask me."/> -->
+		<parameter key="message_farewell" value="See you soon!"/>
+		<parameter key="message_walkaway" value="Bye." />
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="bless;help;temple;priestess;job;something;food;guide;blessings;enigma" />
+		<parameter key="keyword_reply1" value="I can grant you blessings such as {Wisdom of Solitude}, {Spark of The Phoenix}, our {Fire of Two Suns}, {Spiritual Shielding} and {Embrace of Tibia}. I can also grant you {all} of these blessings, just ask me." />
+		<parameter key="keyword_reply2" value="I can give you {blessings}, {heal} you if you are wounded and help you finding yourself by {marking} your {map}" />
+		<parameter key="keyword_reply3" value="I am last {Priestess} left in Enigma City. I wrote my knowledge in books in hope it will be saved. I am also a {guide} of Enigma City." />
+		<parameter key="keyword_reply4" value="We are here to {guide} people in their lives." />
+		<parameter key="keyword_reply5" value="We are here to {guide} people in their lives." />
+		<parameter key="keyword_reply6" value="I can give you {bless}ings and help you finding yourself by {marking} your {map}." />
+		<parameter key="keyword_reply7" value="You can earn some by hunting animals or buy some in stores near Depot." />
+		<parameter key="keyword_reply8" value="I can show you way around and set some {marks} on your {map}" />
+		<parameter key="keyword_reply9" value="I can grant you blessings such as {Wisdom of Solitude}, {Spark of The Phoenix}, our {Fire of Two Suns}, {Spiritual Shielding} and {Embrace of Tibia}. I can also grant you {all} of these blessings, just ask me." />
+		<parameter key="keyword_reply10" value="Our home. Great city of great prosperity. Isn't it a magical place?" />
+	</parameters>
+	</npc>

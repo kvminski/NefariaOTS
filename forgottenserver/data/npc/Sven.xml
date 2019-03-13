@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Sven" script="default.lua" walkinterval="2000" walkradius="2" floorchange="0">
+	<health now="100" max="100" />
+	<look type="131" head="59" body="95" legs="64" feet="0" addons="0" mount="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello, hello, |PLAYERNAME|! Please come in, look, and buy! If you like to see my offers, ask me for a {trade}!" />
+		<parameter key="message_sendtrade" value="Sure, take a look." />
+		<parameter key="message_farewell" value="Bye, bye, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Bye, bye." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+			chain helmet,2458,50;
+			coat,2651,5;
+			doublet,2485,15;
+			jacket, 2650,5;
+			leather armor,2467,25;
+			leather helmet,2461,12;
+			leather legs,2649,10;
+			studded helmet,2482,50;
+			studded shield,2526,50;
+			wooden shield,2512,15;
+			axe,2386,18;
+			dagger,2379,5;
+			hand axe,2380,7;
+			rapier,2384,15;
+			sabre,2385,20;
+			scythe,2550,10;
+			short sword,2406,25;
+			sickle,2405,7;
+			spear,2389,10;
+			football,2109,111;
+			waterball,7956,200;
+			scroll,1949,5;" />
+		<parameter key="shop_sellable" value="
+			axe,2386,7;
+			bone club,2449,5;
+			brass helmet,2460,22;
+			brass shield,2511,25;
+			chain armor,2464,40;
+			chain helmet,2458,12;
+			copper shield,2530,50;
+			dagger,2379,2;
+			doublet,2485,3;
+			leather armor,2467,5;
+			leather boots,2643,2;
+			leather helmet,2461,3;
+			leather legs,2649,2;
+			legion helmet,2480,22;
+			plate shield,2510,40;
+			studded armor,2484,10;
+			studded helmet,2482,20;
+			studded legs,2468,15;
+			studded shield,2526,16;
+			viking helmet,2473,25;
+			hand axe,2380,4;
+			hatchet,2388,25;
+			katana,2412,35;
+			mace,2398,30;
+			machete,2420,6;
+			rapier,2384,5;
+			rope,2120,8;
+			sword,2376,25;
+			sabre,2385,12;
+			short sword,2406,10;
+			sickle,2405,2;
+			spear,2389,3;
+			scythe,2550,3;
+			sickle,2405,2;
+			shovel,2554,2;
+			wooden shield,2512,3;
+			fishing rod,2580,30" />
+	</parameters>
+</npc>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Cedrik" script="oak.lua" walkinterval="2000" walkradius="2" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="57" head="111" body="114" legs="15" feet="114" addons="3"/>
+		<parameters>
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;help;fix;farm;occupation;bake;food;friend;house;enigma;city;recipe;cook;blueberr;cupcake;sweet;cand;destiny;library;mirror;nana;party;tible" />
+		<parameter key="keyword_reply1" value="I was raised on very boring {rock farm}. I tried some kind of {enchanting}, but It's not my destiny. Currently, I'm a {baker}." />
+		<parameter key="keyword_reply2" value="I don't need help at all. This {house} is ruined itself, no need to {fix} it." />
+		<parameter key="keyword_reply3" value="Stop asking. It's just a busted waterchute." />
+		<parameter key="keyword_reply4" value="I prefer to make {sweets} instead of raw building material, I decided to plant some {blueberries} here." />
+		<parameter key="keyword_reply5" value="Nothing special, really. I'm too lazy to start something serious." />
+		<parameter key="keyword_reply6" value="I like to bake, I am pretty good in it. If you would like to learn some {recipes} the {cookbook} is on floor above." />
+		<parameter key="keyword_reply7" value="I'm buying local products in {city} centre. My {nana} sends me money for that regularry." />
+		<parameter key="keyword_reply8" value="A true, true friend helps a friend in need,\nto see the light that shines from a true, true friend.\nOh, I wish I could have any friends here." />
+		<parameter key="keyword_reply9" value="I'd like to spend more time with people. My house is almost ruined, I should move long time ago." />
+		<parameter key="keyword_reply10" value="Sometimes, when I'm alone I'm going to talk with people, but something makes them run away from me, I have no idea why." />
+		<parameter key="keyword_reply11" value="Sometimes, when I'm alone I'm going to talk with people, but something makes them run away from me, I have no idea why." />
+		<parameter key="keyword_reply12" value="Nevermind, stop before you ruin my self destroying house. Your {destiny} seems to be different than cooking." />
+ 		<parameter key="keyword_reply13" value="You may take a cookbook from my small personal {library}." />
+ 		<parameter key="keyword_reply14" value="They are good to make some {cupcakes}, but {vanilla} is very rare these days." />
+ 		<parameter key="keyword_reply15" value="Oh no! No, no, no, no, NO! I forgot {vanilla}. I'm out of that. Nevermind, enjoy some other {sweets} I left on upper floor." />
+ 		<parameter key="keyword_reply16" value="You may take them." />
+        <parameter key="keyword_reply17" value="You may take them." />
+		<parameter key="keyword_reply18" value="Everyp... erson has own destiny. Do whatever you like to do and you will find your own." />
+		<parameter key="keyword_reply19" value="It's only few books, but maybe you find something interesting." />
+		<parameter key="keyword_reply20" value="Ah! The Mirror Pool! {Nana} told me rhymed story about it, full chapter should be in green book titled legends or something." />
+		<parameter key="keyword_reply21" value="She moved somewhere to the {city} centre. She thinks I talk too much, but she still love me and send me money to live." />
+        <parameter key="keyword_reply22" value="I wish I could make biggest party ever, but It's hard to find bro souls, you know..." />
+        <parameter key="keyword_reply23" value="This is a book which I used when I tried to learn {enchanting}. It wasn't my {destiny}, you may try yourself." />
+	</parameters>
+</npc>

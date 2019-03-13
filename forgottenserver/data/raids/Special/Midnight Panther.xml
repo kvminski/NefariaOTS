@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+<announce delay="1000" type="event" message="Midnight Panthers invaded the Ape Jungle." />
+  <areaspawn delay="2000" fromx="1398" fromy="580" fromz="7" tox="1496" toy="633" toz="7">
+      <monster name="Midnight Panther" amount="3" />
+  </areaspawn>
+</raid>
